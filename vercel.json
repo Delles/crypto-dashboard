@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/binance-api/sapi/v1/:path*",
+            "destination": "https://api.binance.com/sapi/v1/:path*"
+        },
+        {
+            "source": "/binance-api/sapi/v2/:path*",
+            "destination": "https://api.binance.com/sapi/v2/:path*"
+        },
+        {
+            "source": "/binance-api/v3/:path*",
+            "destination": "https://api.binance.com/api/v3/:path*"
+        }
+    ]
+}
